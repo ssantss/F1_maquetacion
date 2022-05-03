@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+ .header {
+      background-color: black;
+      font-family: 'Nunito', sans-serif;
+  }
+
+.header_logo, .nav, .nav_list li {
+
+    display: inline-block;
+    margin: 3px;
+  }
+.nav {
+    position: absolute;
+    right: 0;
+    padding-top: 20px;
+    
+}
+  .nav_list {
+      list-style: none;
+
+  }  
+  .nav_list li a {
+      text-decoration: none;
+      color: red;
+      border-style: dashed;
+      padding: 5px;
+      font-size: 20px;
+ }
+ .header_logo {
+    width: 10%;
+ }
+
+.main {
+    height: auto;
+    background-color: whitesmoke;
+}
+.drivers {
+    display: inline-block;
+    height: auto;
+    padding: 10px;
+    background-color: royalblue;
+}
+.routing_images img {
+    display: block;
+    margin: 5px;
+}
+.content {
+    display: inline-block;
+    position: absolute;
+    padding: 15px;
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+    font-size: 130%;
+    
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+.social_logos img{
+    height: 50px;
+    padding: 2;
+}
